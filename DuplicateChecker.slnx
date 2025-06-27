@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DuplicateChecker/DuplicateChecker.csproj" />
+  <Project Path="DuplicateCheckerConsole/DuplicateCheckerConsole.csproj" />
+</Solution>
