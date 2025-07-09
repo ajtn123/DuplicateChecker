@@ -32,5 +32,5 @@ foreach (var item in Checker.Duplicates)
 
 Console.Write("Save result? (Y/n) > ");
 var a = Console.ReadLine() ?? "Y";
-if ("Nn".All(c => !a.Contains(c)))
+if (!"Nn".Any(a.Contains))
     Checker.SaveResult();
